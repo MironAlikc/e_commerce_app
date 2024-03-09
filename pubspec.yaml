@@ -1,0 +1,65 @@
+name: e_commerce_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^4.2.1
+  flutter_bloc: ^8.1.4
+  font_awesome_flutter: ^10.7.0
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.15.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: asset/CustomIcons.ttf
+
+    - family: Poppins-Bold
+      fonts:
+        - asset: asset/Poppins-Bold.ttf
+
+    - family: Poppins-Medium
+      fonts:
+        - asset: asset/Poppins-Medium.ttf
+    
+    - family: Roboto-Light
+      fonts:
+        - asset: asset/Roboto-Light.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: asset/fonts/Roboto-Regular.ttf
+        - asset: asset/fonts/Roboto-Bold.ttf
+        - asset: asset/fonts/Roboto-Light.ttf
+    
+

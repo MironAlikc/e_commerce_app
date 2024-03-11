@@ -39,27 +39,27 @@ flutter:
 
 
 
-  fonts:
-    - family: CustomIcons
-      fonts:
-        - asset: asset/CustomIcons.ttf
+fonts:
+  - family: CustomIcons
+    fonts:
+      - asset: assets/CustomIcons.ttf
 
-    - family: Poppins-Bold
-      fonts:
-        - asset: asset/Poppins-Bold.ttf
+  - family: Poppins-Bold
+    fonts:
+      - asset: assets/Poppins-Bold.ttf
 
-    - family: Poppins-Medium
-      fonts:
-        - asset: asset/Poppins-Medium.ttf
+  - family: Poppins-Medium
+    fonts:
+      - asset: assets/Poppins-Medium.ttf
     
-    - family: Roboto-Light
-      fonts:
-        - asset: asset/Roboto-Light.ttf
+  - family: Roboto-Light
+    fonts:
+      - asset: assets/Roboto-Light.ttf
 
-    - family: Roboto
-      fonts:
-        - asset: asset/fonts/Roboto-Regular.ttf
-        - asset: asset/fonts/Roboto-Bold.ttf
-        - asset: asset/fonts/Roboto-Light.ttf
-    
+  - family: Roboto
+    fonts:
+      - asset: assets/fonts/Roboto-Regular.ttf
+      - asset: assets/fonts/Roboto-Bold.ttf
+      - asset: assets/fonts/Roboto-Light.ttf
+   
 

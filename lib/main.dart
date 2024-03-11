@@ -10,6 +10,7 @@ import 'package:e_commerce_app/screens/shopping_car_screen.dart';
 import 'package:e_commerce_app/utils/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -76,10 +77,22 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(FontAwesomeIcons.heart),
+            label: 'Wish List',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(FontAwesomeIcons.shoppingBag),
+            label: 'Cart',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(FontAwesomeIcons.dashcube),
+            label: 'Dashboard',
+          ),
         ],
         currentIndex: _selectedInDex,
         selectedItemColor: eshopColor,

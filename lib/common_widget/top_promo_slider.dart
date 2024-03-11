@@ -12,17 +12,17 @@ class TopPromoSlider extends StatelessWidget {
       child: CarouselSlider(
         items: [
           Image.asset(
-            'assets/images/promotin_one.png',
+            'assets/images/promotin_one.jpeg',
             height: double.infinity,
             width: double.infinity,
           ),
           Image.asset(
-            'assets/images/promotin_two.png',
+            'assets/images/promotin_two.jpeg',
             height: double.infinity,
             width: double.infinity,
           ),
           Image.asset(
-            'assets/images/promotin_three.png',
+            'assets/images/promotin_three.jpeg',
             height: double.infinity,
             width: double.infinity,
           ),

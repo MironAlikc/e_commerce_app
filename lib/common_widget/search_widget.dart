@@ -26,7 +26,7 @@ class SearchWidget extends StatelessWidget {
             prefixIcon: const Icon(
               Icons.search,
             ),
-            fillColor: const Color(0xFF2F4FF5),
+            fillColor: const Color(0xFFF2F4F5),
             hintStyle: TextStyle(
               color: Colors.grey[600],
             ),

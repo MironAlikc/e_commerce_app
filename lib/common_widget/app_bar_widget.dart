@@ -1,4 +1,6 @@
+import 'package:e_commerce_app/utils/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class AppBarWidget extends StatelessWidget {
   const AppBarWidget({super.key});
@@ -9,16 +11,18 @@ class AppBarWidget extends StatelessWidget {
       elevation: 0,
       centerTitle: true,
       title: Image.asset(
-        'assets/images/ic_app.png',
-        width: 80,
-        height: 40,
+        'assets/images/logo_shop.png',
+        width: 180,
+        height: 140,
+        color: eshopColor,
       ),
-      // actions: [
-      //   IconButton(onPressed: (){}, icon: Icon(FontAwesomeIcons.user),
-      //   color: Color(0xFF322332)
-
-      //   )
-      // ],
+      actions: [
+        IconButton(
+          onPressed: () {},
+          icon: const Icon(FontAwesomeIcons.user),
+          color: const Color(0xFF322332),
+        ),
+      ],
     );
   }
 }

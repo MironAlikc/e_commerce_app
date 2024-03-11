@@ -1,9 +1,9 @@
 import 'package:e_commerce_app/common_widget/popular_menu.dart';
 import 'package:e_commerce_app/common_widget/search_widget.dart';
 import 'package:e_commerce_app/common_widget/top_promo_slider.dart';
+import 'package:e_commerce_app/screens/category_page.dart';
 import 'package:e_commerce_app/utils/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -55,6 +55,7 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   Container(
                     color: Colors.white24,
+                    child: const CategoryPage(),
                   ),
                   Container(
                     color: Colors.white24,

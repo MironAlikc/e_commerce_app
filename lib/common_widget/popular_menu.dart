@@ -14,34 +14,34 @@ class PopularMenu extends StatelessWidget {
         children: [
           Column(
             children: [
-              Column(
-                children: [
-                  Container(
-                    width: 55,
-                    height: 55,
-                    decoration: const BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Color(0xFFF2F3F7),
-                    ),
-                    child: RawMaterialButton(
-                      onPressed: () {},
-                      shape: const CircleBorder(),
-                      child: const Icon(
-                        Icons.account_balance,
-                        color: Color(0xFFAB434B),
-                      ),
-                    ),
+              Container(
+                width: 55,
+                height: 55,
+                decoration: const BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: Color(0xFFF2F3F7),
+                ),
+                child: RawMaterialButton(
+                  onPressed: () {},
+                  shape: const CircleBorder(),
+                  child: const Icon(
+                    Icons.account_balance,
+                    color: Color(0xFFAB434B),
                   ),
-                  const Text(
-                    'Popular',
-                    style: TextStyle(
-                      color: Color(0xFF969696),
-                      fontFamily: 'Roboto-Light',
-                      fontSize: 13,
-                    ),
-                  ),
-                ],
+                ),
               ),
+              const Text(
+                'Popular',
+                style: TextStyle(
+                  color: Color(0xFF969696),
+                  fontFamily: 'Roboto-Light',
+                  fontSize: 13,
+                ),
+              ),
+            ],
+          ),
+          Column(
+            children: [
               Container(
                 width: 55,
                 height: 55,

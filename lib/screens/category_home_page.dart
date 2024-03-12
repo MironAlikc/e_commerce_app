@@ -1,16 +1,17 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:e_commerce_app/common_widget/circular_progress.dart';
 import 'package:e_commerce_app/common_widget/grid_title.dart';
 import 'package:e_commerce_app/models/category_model.dart';
 import 'package:flutter/material.dart';
 
-class CategoryPage extends StatefulWidget {
-  const CategoryPage({super.key});
+class CategoryHomePage extends StatefulWidget {
+  const CategoryHomePage({super.key});
 
   @override
-  State<CategoryPage> createState() => _CategoryPageState();
+  State<CategoryHomePage> createState() => _CategoryHomePageState();
 }
 
-class _CategoryPageState extends State<CategoryPage> {
+class _CategoryHomePageState extends State<CategoryHomePage> {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -19,7 +20,7 @@ class _CategoryPageState extends State<CategoryPage> {
           switch (snapshot.connectionState) {
             case ConnectionState.none:
             case ConnectionState.waiting:
-              return const CircularProgressIndicator();
+              return const CircularProgress();
             default:
               if (snapshot.hasError) {
                 return Text('Error: ${snapshot.error}');

@@ -1,7 +1,9 @@
 import 'package:e_commerce_app/common_widget/popular_menu.dart';
 import 'package:e_commerce_app/common_widget/search_widget.dart';
 import 'package:e_commerce_app/common_widget/top_promo_slider.dart';
-import 'package:e_commerce_app/screens/category_page.dart';
+import 'package:e_commerce_app/screens/brand_home_page.dart';
+import 'package:e_commerce_app/screens/category_home_page.dart';
+import 'package:e_commerce_app/screens/shop_home_page.dart';
 import 'package:e_commerce_app/utils/constants.dart';
 import 'package:flutter/material.dart';
 
@@ -55,13 +57,15 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   Container(
                     color: Colors.white24,
-                    child: const CategoryPage(),
+                    child: const CategoryHomePage(),
                   ),
                   Container(
                     color: Colors.white24,
+                    child: const BrandHomePage(),
                   ),
                   Container(
                     color: Colors.white24,
+                    child: const ShopeHomePage(),
                   ),
                 ],
               ),

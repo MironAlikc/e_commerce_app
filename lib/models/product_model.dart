@@ -32,7 +32,7 @@ class ProductModel {
 
   factory ProductModel.fromDocument(DocumentSnapshot doc) {
     String name = doc.get('name');
-    String priceType = doc.get('priceType');
+    String priceType = doc.get('price_type');
     List<dynamic> imageUrls = doc.get('image_urls');
     String maxPrice = doc.get('max_price');
     String minPrice = doc.get('min_price');
